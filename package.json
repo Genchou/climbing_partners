@@ -1,0 +1,22 @@
+{
+  "name": "climbingpartners",
+  "version": "0.0.1",
+  "description": "App for finding climbing partners",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GvonH",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "favicon": "0.0.2",
+    "jade": "^1.11.0",
+    "socket.io": "^1.3.7"
+  },
+  "repository": {
+    "url": "https://github.com/Genchou/climbingpartners",
+    "type": "git"
+  }
+}

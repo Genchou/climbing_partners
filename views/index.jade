@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	h1= title
+	p Hello ! This is a #{title}
+	ul(id="messages")
+	form(action="", id="chat")
+		input(id="message", autocomplete="off")
+		button Send
+
+	script(src="https://cdn.socket.io/socket.io-1.3.7.js")
+	script(src="http://code.jquery.com/jquery-1.11.1.js")
+	script(src="/js/socket.js")
